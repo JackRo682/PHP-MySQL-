@@ -1,0 +1,20 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f8fa; }
+.topbar { background: #1f2937; color: #fff; padding: 10px 20px; display:flex; align-items:center; justify-content:space-between; }
+.topbar a { color: #fff; margin-right: 10px; text-decoration:none; }
+.topbar .logo { font-weight: bold; }
+.container { padding: 20px; }
+form label { display:block; margin-bottom:8px; }
+form input, form select, form textarea { width:100%; padding:6px; margin-top:4px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px; background:#fff; padding:15px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+.template-buttons { margin-bottom: 10px; }
+.template-buttons button { margin-right: 6px; }
+.actions { margin:10px 0; }
+table { width:100%; border-collapse: collapse; background:#fff; }
+table th, table td { border:1px solid #ddd; padding:8px; text-align:left; }
+table th { background:#f0f0f0; }
+.flash { background:#d1fae5; color:#065f46; padding:10px; margin-bottom:10px; border-radius:4px; }
+.error { background:#fee2e2; color:#b91c1c; padding:10px; margin-bottom:10px; border-radius:4px; }
+.button, button { background:#2563eb; color:#fff; border:none; padding:8px 12px; border-radius:4px; cursor:pointer; }
+.button { display:inline-block; text-decoration:none; }
+.checkboxes label { display:inline-block; margin-right:10px; }
+.user-info { margin-right: 10px; }
